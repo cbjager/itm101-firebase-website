@@ -1,69 +1,119 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carissa's Portfolio</title>
+    <title>Carissa | Cybersecurity Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<nav class="navbar" aria-label="Main navigation">
+    <a href="#" class="logo">Carissa</a>
+
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
     <header>
-        <h1>Carissa's Portfolio</h1>
-        <p>Cybersecurity Student | IT Learner | Problem Solver</p>
+        <h1>Hi, I'm Carissa!</h1>
+        <p>Cybersecurity Student | Technology Enthusiast | Problem Solver</p>
     </header>
 
     <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
             <p>
-                Hello! I'm Carissa, a cybersecurity student at BYU-Idaho.
-                I'm building my skills in information technology, programming,
-                Linux, cybersecurity, and web development.
+                I'm a cybersecurity student at Brigham Young
+                University-Idaho with an interest in information
+                technology, programming, and security.
+
+                My professional background is in Food Safety
+                and Quality Assurance, where I've developed
+                experience in compliance, documentation,
+                troubleshooting, and problem-solving.
+
+                I'm now applying those skills to technology
+                through hands-on projects and coursework.
             </p>
         </section>
 
-        <section>
-            <h2>Skills</h2>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <h3>Programming & Web Development</h3>
             <ul>
                 <li>HTML and CSS</li>
-                <li>Python</li>
-                <li>Linux</li>
+                <li>JavaScript fundamentals</li>
+                <li>Python (currently learning)</li>
+            </ul>
+
+            <h3>Systems & Tools</h3>
+            <ul>
+                <li>Windows and Ubuntu Linux</li>
+                <li>VirtualBox and virtual machines</li>
                 <li>Git and GitHub</li>
-                <li>Cybersecurity Fundamentals</li>
+                <li>Visual Studio Code</li>
+                <li>Firebase Hosting</li>
+                <li>AWS EC2 fundamentals</li>
             </ul>
         </section>
 
-        <section>
-            <h2>Projects</h2>
+        <section id="projects">
+            <h2>My Projects</h2>
 
             <div class="project">
-                <h3>Beginner Aquascaping Website</h3>
+                <h3>Freshwater Shrimp Aquascaping Website</h3>
                 <p>
-                    A beginner-friendly website about creating freshwater
-                    shrimp aquascapes using HTML, CSS, and JavaScript.
+                    Designed a beginner-friendly website introducing
+                    freshwater shrimp aquascaping, using HTML,
+                    CSS, and JavaScript.
                 </p>
             </div>
 
             <div class="project">
-                <h3>Linux Projects</h3>
+                <h3>Ubuntu Linux SecurityLab</h3>
                 <p>
-                    Hands-on experience working with Ubuntu Linux,
-                    virtual machines, terminal commands, and AWS.
+                    Built a local Ubuntu virtual machine to practice
+                    Linux terminal commands, file permissions,
+                    process monitoring, and system logs.
+                </p>
+                <p>
+                    Tools explored: mkdir, chmod, ps aux,
+                    journalctl, and Bash aliases.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Firebase Portfolio Deployment</h3>
+                <p>
+                    Developed and deployed a personal website
+                    using HTML, CSS, Google Firebase Hosting,
+                    and GitHub for version control.
                 </p>
             </div>
         </section>
 
-        <section>
-            <h2>Contact</h2>
+        <section id="contact">
+            <h2>Connect With Me</h2>
             <p>
                 Thanks for visiting my portfolio!
+                You can explore my projects on GitHub.
             </p>
+            <a href="https://github.com/cbjager"
+               target="_blank" rel="noopener noreferrer">
+                Visit My GitHub
+            </a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Carissa</p>
+        <p>&copy; 2026 Carissa | Built with HTML, CSS & Firebase</p>
     </footer>
 
 </body>
